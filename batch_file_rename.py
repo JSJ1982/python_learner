@@ -76,6 +76,7 @@ def main():
 
     print('\n' + work_dir + '目录：' + old_ext + ' 文件 替换为 ' + new_ext + ' 文件\n')
     batch_rename(work_dir, old_ext, new_ext)
+    print('\n')
 
 
 if __name__ == '__main__':
